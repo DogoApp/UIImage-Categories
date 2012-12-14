@@ -10,6 +10,10 @@
           transparentBorder:(NSUInteger)borderSize
                cornerRadius:(NSUInteger)cornerRadius
        interpolationQuality:(CGInterpolationQuality)quality;
+- (UIImage *)thumbnailSize:(CGSize)thumbnailSize
+          transparentBorder:(NSUInteger)borderSize
+               cornerRadius:(NSUInteger)cornerRadius
+       interpolationQuality:(CGInterpolationQuality)quality;
 - (UIImage *)resizedImage:(CGSize)newSize
      interpolationQuality:(CGInterpolationQuality)quality;
 - (UIImage *)resizedImageWithContentMode:(UIViewContentMode)contentMode
